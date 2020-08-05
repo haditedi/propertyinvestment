@@ -8,8 +8,9 @@ const HowItWorks = () => {
   return (
     <Layout>
       <SEO title="" description="" />
-      <HeadingText text="How It Works" />
-
+      <div style={{ backgroundColor: "white" }}>
+        <HeadingText text="How It Works" />
+      </div>
       <div style={style.main}>
         <section style={style.section}>
           <h3>Here’s how it works…</h3>

@@ -20,7 +20,10 @@ const Index = () => {
 
   return (
     <Layout>
-      <HeadingText text="Secured Property Investment" />
+      <div style={{ backgroundColor: "white" }}>
+        <HeadingText text="Secured Property Investment" />
+      </div>
+
       <div>
         <Img
           style={{

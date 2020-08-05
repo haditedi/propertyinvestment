@@ -8,6 +8,8 @@ const HeadingText = ({ text }) => {
         margin: "15px auto",
         padding: "0 20px",
         maxWidth: "800px",
+
+        backgroundColor: "#7f8fa6",
       }}
     >
       <h1 className="fadeIn">{text}</h1>

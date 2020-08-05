@@ -34,7 +34,9 @@ const Examples = () => {
   return (
     <Layout>
       <SEO title="" description="" />
-      <HeadingText text="See Below Some Examples of Property Purchased" />
+      <div style={{ backgroundColor: "white" }}>
+        <HeadingText text="See Below Some Examples of Property Purchased" />
+      </div>
       <div style={style.main}>
         <section style={style.section}>
           <h3>Example Property Deals :</h3>

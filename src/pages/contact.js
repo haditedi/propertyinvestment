@@ -25,7 +25,10 @@ const ContactUs = () => {
         title="Contact Us | "
         description="Get in touch with us either by phone or the enquiry form."
       />
-      <HeadingText text="Contact Us" />
+      <div style={{ backgroundColor: "white" }}>
+        <HeadingText text="Contact Us" />
+      </div>
+
       <div>
         <Img
           style={{ margin: "40px auto 20px", width: "100%", maxWidth: "900px" }}
