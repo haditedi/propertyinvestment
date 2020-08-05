@@ -25,7 +25,7 @@ const Examples = () => {
       folkestone: file(relativePath: { eq: "pdf/4bedFolkstone.pdf" }) {
         publicURL
       }
-      winder: file(relativePath: { eq: "pdf/4bedWindermere.pdf" }) {
+      surrey: file(relativePath: { eq: "pdf/4bedSurrey.pdf" }) {
         publicURL
       }
     }
@@ -173,7 +173,7 @@ const Examples = () => {
               Projected 10 year profit = £489,717 = 222% ROI = 22% annualised
             </b>
           </p>
-          <a href={data.winder.publicURL} download>
+          <a href={data.surrey.publicURL} download>
             <Button
               style={{ margin: "10px 0", backgroundColor: "#273c75" }}
               variant="contained"
