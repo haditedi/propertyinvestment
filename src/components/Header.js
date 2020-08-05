@@ -21,17 +21,18 @@ const Header = () => {
   return (
     <header className={headerStyles.header}>
       <div className={headerStyles.logo}>
-        {/* <Link to="/">
-          <img
+        <Link to="/">
+          <h4>Secured Investment</h4>
+          {/* <img
             style={{ width: "70px", margin: "5px 10px 0", padding: "0" }}
             src={logo}
             alt="logo"
-          />
-        </Link> */}
+          /> */}
+        </Link>
       </div>
 
       <Box
-        style={{ backgroundColor: "white", borderRadius: "5px" }}
+        style={{ borderRadius: "5px" }}
         component="div"
         mr="1rem"
         display={{
